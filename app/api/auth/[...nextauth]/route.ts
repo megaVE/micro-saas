@@ -4,7 +4,7 @@ import Google from "next-auth/providers/google";
 
 export const { GET, POST } = handlers;
 
-export const { auth, signIn, signOut } = NextAuth({
+export const { auth, signOut } = NextAuth({
 	providers: [
 		Google({
 			authorization: {
